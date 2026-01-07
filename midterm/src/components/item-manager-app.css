@@ -1,0 +1,43 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px; /* Header alignment */
+}
+
+/* Table basic style */
+.item-table {
+  border-collapse: collapse;
+  text-align: left;
+  /* padding: 0.5rem 1rem; */
+  /* background-color: red; */
+  width: 100%;
+}
+
+.item-table th,
+.item-table td {
+  border-bottom: 1px solid black;
+}
+
+/* Header */
+#h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.changeCategoryIcon
+{
+  width: 200px;
+  height: 200px;
+}
+.addBtn{
+  background-color: rgb(44, 44, 251);
+  border-radius: 5px;
+  border:1px solid black;
+  color: white;
+  padding:  0.3rem 0.7rem;
+
+
+}
+.error{
+  color: red;
+}
